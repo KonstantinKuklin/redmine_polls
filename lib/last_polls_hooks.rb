@@ -1,6 +1,6 @@
 class LastPollsHooks < Redmine::Hook::ViewListener
 
-  def view_welcome_index_right(context = { })
+  def view_welcome_index_left(context = { })
     if !User.current.projects.any? || !User.current.logged?
       return ''
     end

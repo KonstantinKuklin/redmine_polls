@@ -1,0 +1,16 @@
+# German strings go here for Rails i18n
+de:
+  polls: Umfragen
+  poll_new: Neue Umfrage
+  choice_new: Neue Wahloption
+  choice_add: Option hinzufügen
+  field_question: Frage
+  field_revote: Stimme kann geändert werden
+  field_text: Wahloption
+  poll_edit: Umfrage editieren
+  choice_edit: Wahloption editieren
+  revote: erneut abstimmen
+  vote_remove: Stimme zurück ziehen
+  poll_edit: Umfrage editieren
+  poll_remove: Umfrage  beenden
+  choice_remove: Option entfernen
