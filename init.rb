@@ -6,7 +6,7 @@ Redmine::Plugin.register :redmine_polls do
   name 'Redmine Polls plugin'
   author 'Pavel Vinokurov'
   description 'Polls management. Insert polls and poll results as Wiki macros. Show non-voted polls on Home and on project Overview in a box similar to Latest News'
-  version '0.0.1'
+  version '0.0.2'
 
   menu :project_menu, :polls, { :controller => 'polls', :action => 'index' }, :caption => :polls, :after => :wiki, :param => :project_id
 
